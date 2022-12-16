@@ -5,6 +5,7 @@ class Product{
     var price: Int
     var weight: Double
     var barcode: String
+   
     init(name: String, amount: Int, price: Int, weight: Double, barcode: String) {
         self.name = name
         self.amount = amount

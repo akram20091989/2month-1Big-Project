@@ -1,5 +1,5 @@
 
-class OrganizationInsideCountry {
+class OrganizationInCountry {
     var name: String
     var location : String
     var stock: [StockInsideCountry]
@@ -28,7 +28,7 @@ class OrganizationInsideCountry {
     
 }
 
-class OrganizationAbroadCountry {
+class OrganizationOutCountry {
     var name: String
     var location : [String]
     var stock : [StockAbroadCountry]
@@ -55,5 +55,4 @@ class OrganizationAbroadCountry {
         }
     }
 }
-
 
